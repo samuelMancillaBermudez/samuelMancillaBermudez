@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Historial | Control de IoT</title>
+
+  <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-firestore.js"></script>
+  <script src="js/init.js"></script>
+
+  <meta name="theme-color" content="#9c27b0">
+  <link rel="icon" sizes="32x32" href="logo-favicon.ico">
+
+  <link rel="manifest" href="./manifest.json">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <div class="titulo">
+      Control de IoT | Historial
+    </div>
+  </header>
+  <div class="contenido">
+    <p>
+      <a href="index.html">
+        Regresar a Inicio
+      </a>
+    </p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Id</th>
+          <th>DispositivoId</th>
+          <th>Valor</th>
+          <th>Timestamp</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+  <footer>
+    &copy; 2021 | Samuel Mancilla Bermúdez
+  </footer>
+<script src="js/script.js"></script>
+<script type="module" src="js/CtrlHistorial.js"></script>
+</body>
+</html>
